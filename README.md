@@ -1,16 +1,23 @@
 # 🚀 Candidate Fit Prediction with XGBoost & Bayesian Hyperparameter Tuning
 
-## 🔍 Why — Business Case
-Organizations face a dual challenge when screening candidates:
-- **Missed opportunities** when potential “Fit” candidates are incorrectly rejected (false negatives).
-- **Wasted resources** when unsuitable “Not Fit” candidates are misclassified as “Fit” (false positives).
+## 🔍 Business Case
+Organizations in health, wellness, and fitness industries face a **dual challenge when screening individuals for “fitness”**:
 
-Both outcomes reduce efficiency, increase costs, and create operational risks.
-A reliable predictive model helps decision-makers **prioritize the right candidates**, **optimize resources**, and **reduce risk**, ultimately maximizing business value.
+- **Missed opportunities**: Potential “Fit” candidates are incorrectly rejected (false negatives), meaning valuable individuals are overlooked.
+- **Wasted resources**: Unsuitable “Not Fit” candidates are misclassified as “Fit” (false positives), leading to inefficiencies and unnecessary costs.
+
+Both outcomes directly affect **business performance** — lowering efficiency, increasing operational risks, and misallocating resources.
+
+A reliable predictive model addresses these challenges by:
+- Enabling **smarter prioritization** of candidates,
+- Reducing **false classifications**, and
+- Ensuring resources are directed where they generate the most value.
+
+Ultimately, this strengthens decision-making, minimizes risk, and maximizes the **business impact** of fitness programs, health screenings, or insurance assessments.
 
 ---
 
-## 🛠️ How — Approach
+## 🛠️ Methodology - Approach
 This project applies a combination of **advanced machine learning** and **Bayesian optimization**:
 
 1. **Modeling**
@@ -31,7 +38,7 @@ This project applies a combination of **advanced machine learning** and **Bayesi
 
 ---
 
-## 📊 What — Results
+## 📊 Results
 The tuned XGBoost model delivered **clear improvements** over the baseline:
 
 - **AUC** and **Accuracy** increased → confirming stronger generalization.
