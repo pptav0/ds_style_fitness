@@ -55,6 +55,7 @@ By combining **XGBoost** with **Bayesian hyperparameter tuning**, the project de
 ---
 
 ## 📂 Repository Structure
+```
 style_fitness/
 │── data/ 										# Datasets (raw/processed)
 │
@@ -75,7 +76,7 @@ style_fitness/
 │── poetry.lock 				# Dependency lockfile
 │── pyproject.toml 			# Project dependencies & configuration
 │── README.md 					# Project documentation
-
+```
 
 ---
 
